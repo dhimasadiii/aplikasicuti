@@ -1,0 +1,64 @@
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: background-color 0.5s, color 0.5s;
+  }
+  
+  header {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 1em;
+  }
+  
+  section {
+	padding: 20px;
+  }
+  
+  img {
+	max-width: 100%; /* Membuat gambar tidak melebihi lebar kontainernya */
+	height: auto; /* Mencegah gambar terdistorsi */
+  }
+  
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff; /* Light mode background color */
+	color: #333; /* Light mode text color */
+  }
+
+  .dark-mode {
+	background-color: #333; /* Dark mode background color */
+	color: #fff; /* Dark mode text color */
+  }
+  
+
+
+  .footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  }
+  
+  /* Gaya untuk layar kecil (maksimum lebar 600px) */
+  @media only screen and (max-width: 600px) {
+	header {
+	  font-size: 18px;
+	}
+  
+	section {
+	  padding: 10px;
+	}
+  
+	.footer {
+	  font-size: 14px;
+	}
+  }
+  

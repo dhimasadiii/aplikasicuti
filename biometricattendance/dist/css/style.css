@@ -1,0 +1,30 @@
+/* Untuk layar lebih kecil dari 1000px */
+@media screen and (max-width: 1500px) {
+	/* Atur lebar gambar menjadi 100% */
+	img {
+		width: 100%;
+	}
+	/* Mengatur font size menjadi lebih kecil */
+	h1 {
+		font-size: 24px;
+	}
+}
+/* Untuk layar lebih kecil dari 768px */
+@media screen and (max-width: 768px) {
+	/* Atur lebar gambar menjadi 100% */
+	img {
+		width: 100%;
+	}
+	/* Mengatur font size menjadi lebih kecil */
+	h1 {
+		font-size: 24px;
+	}
+}
+
+/* Untuk layar lebih kecil dari 480px */
+@media screen and (max-width: 480px) {
+	/* Mengatur font size menjadi lebih kecil lagi */
+	h1 {
+		font-size: 18px;
+	}
+}
